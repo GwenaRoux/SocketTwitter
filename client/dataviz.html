@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Tweet-socket</title>
+    <link rel="stylesheet" href="source/css/style.css">
+    <link rel="stylesheet" href="source/css/tweets.css">
+    <script src="https://cdn.jsdelivr.net/npm/chart.js@2.8.0"></script>
+</head>
+<body>
+<header>
+    <h1>Dataviz</h1>
+    <ul>
+        <li><a href="/">Home</a></li>
+        <li><a href="/tweets">Tweets</a></li>
+        <li><a href="/mytweets">MyTweets</a></li>
+        <li><a href="/dataviz">Dataviz</a></li>
+    </ul>
+</header>
+<canvas id="myChart"></canvas>
+<script src="/socket.io/socket.io.js"></script>
+<script src="source/js/dataviz.js"></script>
+</body>
+</html>
